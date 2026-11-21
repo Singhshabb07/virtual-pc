@@ -1,0 +1,32 @@
+# Terraform local files
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+!terraform.tfvars.example
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# OS and Temporary files
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
+*.zip
+*.cer
+*.inf
+.DS_Store

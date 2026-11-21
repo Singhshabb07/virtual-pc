@@ -1,0 +1,32 @@
+{
+  "currency": "USD",
+  "inr_exchange_rate": 85.5,
+  "monthly_budget_inr": 6000,
+  "monthly_budget_usd": 70.18,
+  "region": "ap-south-1",
+  "region_name": "Asia Pacific (Mumbai)",
+  "ec2_pricing": {
+    "g4dn.xlarge": {
+      "vCPU": 4,
+      "ram_gb": 16,
+      "gpu": "1x NVIDIA T4 (16GB VRAM)",
+      "windows_on_demand_hourly": 0.752,
+      "windows_spot_hourly_approx": 0.380,
+      "linux_on_demand_hourly": 0.526,
+      "linux_spot_hourly_approx": 0.195
+    }
+  },
+  "ebs_gp3_pricing": {
+    "storage_per_gb_month": 0.096,
+    "baseline_iops": 3000,
+    "baseline_throughput_mbps": 125,
+    "target_500gb_monthly_cost": 48.00,
+    "tiered_150gb_monthly_cost": 14.40
+  },
+  "data_transfer_out": {
+    "free_tier_gb": 100.0,
+    "per_gb_after_free_tier": 0.1093,
+    "moonlight_typical_bitrate_mbps": 20.0,
+    "bandwidth_gb_per_hour": 9.0
+  }
+}

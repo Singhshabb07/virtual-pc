@@ -1,0 +1,30 @@
+# AWS Region for Codevern Cloud PC (Mumbai)
+aws_region = "ap-south-1"
+
+# Environment tag
+environment = "mvp"
+
+# Operating System: "windows" (Windows Server 2022) or "ubuntu" (Ubuntu 22.04 LTS)
+os_type = "windows"
+
+# GPU Instance type (4 vCPU, 16 GB RAM, NVIDIA T4)
+instance_type = "g4dn.xlarge"
+
+# Storage target (100GB OS root + 400GB data = 500GB persistent gp3 storage)
+root_volume_size = 100
+data_volume_size = 400
+
+# Client IP address constraint (replace with your personal public IP /32 for security, e.g. "122.161.45.12/32")
+allowed_client_cidr = "0.0.0.0/0"
+
+# Monthly Budget in USD (~$70 equals ₹6,000 INR constraint)
+monthly_budget_usd = 70
+
+# Notification email for AWS Budget & CloudWatch idle shutdown notifications
+notification_email = "your-email@codevern.com"
+
+# Inactive minutes before auto-shutdown
+idle_timeout_minutes = 15
+
+# Set to true to utilize Spot instances for up to 60-70% compute savings
+use_spot_instance = false
